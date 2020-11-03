@@ -3,15 +3,27 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
-
+* {
+    margin: 0px;
+    padding: 0px;
+ }
+body{
+    background-color: #D4A76A;
+    margin: 0;
+    margin-top: 0;
+}
 header{
     background-color: #FFDBAA;
     height: 130px;
-    margin: 0px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    color: #553100;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 40px;
 }
 p, ul{
     float: left;
-    text-align: center;
+    padding-top: 40px;
 }
 ul {
     list-style-type: none;
@@ -34,9 +46,17 @@ button{
 button:hover{
     background-color: #aa6d1e;
 }
-body{
-    background-color: #D4A76A;
-    margin: 0;
-    margin-top: 0;
+main{
+    align-items: center;
+}
+section{
+    background-color: white;
+    height: 200px;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+
 }
 
